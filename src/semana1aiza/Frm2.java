@@ -38,7 +38,7 @@ public class Frm2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("VENTANA DOS CONTROL DE INTERFAS");
+        jLabel1.setText("perros pruebas");
 
         buttonGroup1.add(rb1);
         rb1.setText("FACEBOOK");

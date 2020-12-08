@@ -61,7 +61,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="VENTANA DOS CONTROL DE INTERFAS"/>
+        <Property name="text" type="java.lang.String" value="perros pruebas"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JRadioButton" name="rb1">
