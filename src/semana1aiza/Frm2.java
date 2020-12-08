@@ -35,6 +35,7 @@ public class Frm2 extends javax.swing.JFrame {
         rb2 = new javax.swing.JRadioButton();
         rb3 = new javax.swing.JRadioButton();
         btnmostrar = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -56,18 +57,25 @@ public class Frm2 extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setText("cambio 1 a dev");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(102, 102, 102)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnmostrar)
-                    .addComponent(rb3)
-                    .addComponent(rb2)
-                    .addComponent(rb1)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(102, 102, 102)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnmostrar)
+                            .addComponent(rb3)
+                            .addComponent(rb2)
+                            .addComponent(rb1)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(123, 123, 123)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(109, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -75,7 +83,9 @@ public class Frm2 extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(26, 26, 26)
                 .addComponent(jLabel1)
-                .addGap(30, 30, 30)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addGap(11, 11, 11)
                 .addComponent(rb1)
                 .addGap(15, 15, 15)
                 .addComponent(rb2)
@@ -135,6 +145,7 @@ public class Frm2 extends javax.swing.JFrame {
     private javax.swing.JButton btnmostrar;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JRadioButton rb1;
     private javax.swing.JRadioButton rb2;
     private javax.swing.JRadioButton rb3;
